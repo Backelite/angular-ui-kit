@@ -1,27 +1,31 @@
-# angular-webpack
+# angular-ui-kit
 
-[![Dependency Status](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
-[![Join the chat at https://gitter.im/preboot/angular-webpack](https://badges.gitter.im/preboot/angular-webpack.svg)](https://gitter.im/preboot/angular-webpack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Backelite's library to use with angular 2.x+.
 
-A complete, yet simple, starter for Angular v2+ using Webpack.
+Contains the component factory (components documentation + example + tests) and the components.
 
-This seed repo serves as an Angular starter for anyone looking to get up and running with Angular and TypeScript fast. Using [Webpack](http://webpack.github.io/) for building our files and assisting with boilerplate. We're also using Protractor for our end-to-end story and Karma for our unit tests.
-* Best practices in file and application organization for [Angular](https://angular.io/).
-* Ready to go build system using [Webpack](https://webpack.github.io/docs/) for working with [TypeScript](http://www.typescriptlang.org/).
-* Testing Angular code with [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/).
-* Coverage with [Istanbul](https://github.com/gotwarlost/istanbul)
-* End-to-end Angular code using [Protractor](https://angular.github.io/protractor/).
-* Stylesheets with [SASS](http://sass-lang.com/) (not required, it supports regular css too).
-* Error reported with [TSLint](http://palantir.github.io/tslint/) and [Codelyzer](https://github.com/mgechev/codelyzer).
-* Documentation with [TypeDoc](http://typedoc.org/).
+## Components Library
 
->Warning: Make sure you're using the latest version of Node.js and NPM
+* Modal (todo)
+* Flying menu mobile (todo)
+* Select (todo)
+* Autocomplete (todo)
+* Checkbox / Radio (todo)
+* File Inputs (todo)
+* Hero Units with Video or image (todo)
+* Carousels (todo)
+* Form Validation (todo)
+* Redux System (todo)
+* HTTP service (JWT, errors...) (todo)
 
-### Quick start
+# Using the library components (factory)
+
+Todo
+
+# Quick start (working on the factory)
 
 ```bash
 # clone our repo
-$ git clone https://github.com/preboot/angular-webpack.git my-app
 
 # change directory to your app
 $ cd my-app
@@ -47,13 +51,14 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
 * [TypeScript](#typescript)
 * [License](#license)
 
-# Getting Started
+
+# Getting Started (working on the components library)
 
 ## Dependencies
 
 What you need to run this app:
 * `node` and `npm` (Use [NVM](https://github.com/creationix/nvm))
-* Ensure you're running Node (`v6.x.x`+) and NPM (`3.x.x`+)
+* tested with Node (`v9.2.x`+) and NPM (`5.5.x`+)
 
 ## Installing
 
@@ -115,11 +120,11 @@ No, Webpack will add all the needed Javascript bundles as script tags and all th
 
 #### How to include external angular libraries ?
 
-It's simple, just install the lib via npm and import it in your code when you need it. Don't forget that you need to configure some external libs in the [bootstrap](https://github.com/preboot/angular-webpack/blob/master/src/main.ts) of your application.
+It's simple, just install the lib via npm and import it in your code when you need it. Don't forget that you need to configure some external libs in the src/main.ts of your application.
 
 #### How to include external css files such as bootstrap.css ?
 
-Just install the lib and import the css files in [vendor.ts](https://github.com/preboot/angular-webpack/blob/master/src/vendor.ts). For example this is how to do it with bootstrap:
+Just install the lib and import the css files in [vendor.ts](src/vendor.ts). For example this is how to do it with bootstrap:
 
 ```sh
 npm install bootstrap@next --save
@@ -135,5 +140,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 > To take full advantage of TypeScript with autocomplete you would have to use an editor with the correct TypeScript plugins.
 
+# resources
+
+This project has been started using https://github.com/preboot/angular-webpack
+
 # License
 
+Todo
